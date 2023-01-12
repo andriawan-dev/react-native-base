@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">momasa</string>
+    <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">DO_NOT_ASK_JAVASCRIPT</string>
+    <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+    <!-- DevelopmentKey -->
+    <string moduleConfig="true" name="CodePushDeploymentKey">bLiBDGol_btnSR57YW7uSzyRMKFeJmGJylWEe</string>
+    <!-- ProductionKey -->
+    <!-- <string moduleConfig="true" name="CodePushDeploymentKey">LrwywF85Mmvrkb31r8Vg4PctvWmxH5p4U1WNW</string> -->
+</resources>

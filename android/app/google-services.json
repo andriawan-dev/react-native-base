@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "860872797752",
+    "project_id": "momasa-id",
+    "storage_bucket": "momasa-id.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860872797752:android:7234493751e6b9f82180cd",
+        "android_client_info": {
+          "package_name": "id.momasa.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860872797752-pl23rlh2h9pj20m6t0nb5abmthiicbcd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgh6yVqAUIZ-lA9mehw9c6o0HY2lkYWwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860872797752-pl23rlh2h9pj20m6t0nb5abmthiicbcd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
