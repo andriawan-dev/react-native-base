@@ -411,6 +411,8 @@ PODS:
   - RNScreens (3.18.2):
     - React-Core
     - React-RCTImage
+  - RNSVG (13.7.0):
+    - React-Core
   - SSZipArchive (2.2.3)
   - Yoga (1.14.0)
 
@@ -460,6 +462,7 @@ DEPENDENCIES:
   - "RNFBApp (from `../node_modules/@react-native-firebase/app`)"
   - "RNFBMessaging (from `../node_modules/@react-native-firebase/messaging`)"
   - RNScreens (from `../node_modules/react-native-screens`)
+  - RNSVG (from `../node_modules/react-native-svg`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -570,6 +573,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@react-native-firebase/messaging"
   RNScreens:
     :path: "../node_modules/react-native-screens"
+  RNSVG:
+    :path: "../node_modules/react-native-svg"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -634,6 +639,7 @@ SPEC CHECKSUMS:
   RNFBApp: 2b3e57f4eecd9cfe8a5dd2ea8ed27a87fbc6eada
   RNFBMessaging: c88867b6c9d16d3ba349c7ab4a1a8948fb71e2f6
   RNScreens: 34cc502acf1b916c582c60003dc3089fa01dc66d
+  RNSVG: d787d64ca06b9158e763ad2638a8c4edce00782a
   SSZipArchive: 62d4947b08730e4cda640473b0066d209ff033c9
   Yoga: 99caf8d5ab45e9d637ee6e0174ec16fbbb01bcfc
 

@@ -36,7 +36,7 @@
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>fetch</string>
@@ -58,5 +58,18 @@
 	<false/>
 	<key>CodePushDeploymentKey</key>
 	<string>m6xbewS0UvpnH1WAC5tqcpntwcNt1GTmtjBdh</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>PlusJakartaSans-Bold.ttf</string>
+		<string>PlusJakartaSans-BoldItalic.ttf</string>
+		<string>PlusJakartaSans-Italic.ttf</string>
+		<string>PlusJakartaSans-Light.ttf</string>
+		<string>PlusJakartaSans-LightItalic.ttf</string>
+		<string>PlusJakartaSans-Medium.ttf</string>
+		<string>PlusJakartaSans-MediumItalic.ttf</string>
+		<string>PlusJakartaSans-Regular.ttf</string>
+		<string>PlusJakartaSans-SemiBold.ttf</string>
+		<string>PlusJakartaSans-SemiBoldItalic.ttf</string>
+	</array>
 </dict>
 </plist>
