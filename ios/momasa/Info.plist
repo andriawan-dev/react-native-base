@@ -20,8 +20,33 @@
 	<string>1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb855054452232775</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.860872797752-a4j2q09k65a60ih85ovbn6b0mjo1udll</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>CodePushDeploymentKey</key>
+	<string>m6xbewS0UvpnH1WAC5tqcpntwcNt1GTmtjBdh</string>
+	<key>FacebookAppID</key>
+	<string>855054452232775</string>
+	<key>FacebookClientToken</key>
+	<string>5a6a270ac0a8d882c4cf2b911834efaa</string>
+	<key>FacebookDisplayName</key>
+	<string>Momasa</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -36,7 +61,20 @@
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string/>
+	<string></string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>PlusJakartaSans-Bold.ttf</string>
+		<string>PlusJakartaSans-BoldItalic.ttf</string>
+		<string>PlusJakartaSans-Italic.ttf</string>
+		<string>PlusJakartaSans-Light.ttf</string>
+		<string>PlusJakartaSans-LightItalic.ttf</string>
+		<string>PlusJakartaSans-Medium.ttf</string>
+		<string>PlusJakartaSans-MediumItalic.ttf</string>
+		<string>PlusJakartaSans-Regular.ttf</string>
+		<string>PlusJakartaSans-SemiBold.ttf</string>
+		<string>PlusJakartaSans-SemiBoldItalic.ttf</string>
+	</array>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>fetch</string>
@@ -56,35 +94,5 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>CodePushDeploymentKey</key>
-	<string>m6xbewS0UvpnH1WAC5tqcpntwcNt1GTmtjBdh</string>
-	<key>UIAppFonts</key>
-	<array>
-		<string>PlusJakartaSans-Bold.ttf</string>
-		<string>PlusJakartaSans-BoldItalic.ttf</string>
-		<string>PlusJakartaSans-Italic.ttf</string>
-		<string>PlusJakartaSans-Light.ttf</string>
-		<string>PlusJakartaSans-LightItalic.ttf</string>
-		<string>PlusJakartaSans-Medium.ttf</string>
-		<string>PlusJakartaSans-MediumItalic.ttf</string>
-		<string>PlusJakartaSans-Regular.ttf</string>
-		<string>PlusJakartaSans-SemiBold.ttf</string>
-		<string>PlusJakartaSans-SemiBoldItalic.ttf</string>
-	</array>
-	<key>CFBundleURLTypes</key>
-	<array>
-		<dict>
-		<key>CFBundleURLSchemes</key>
-		<array>
-			<string>fb855054452232775</string>
-		</array>
-		</dict>
-	</array>
-	<key>FacebookAppID</key>
-	<string>855054452232775</string>
-	<key>FacebookClientToken</key>
-	<string>5a6a270ac0a8d882c4cf2b911834efaa</string>
-	<key>FacebookDisplayName</key>
-	<string>Momasa</string>
 </dict>
 </plist>

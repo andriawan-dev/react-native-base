@@ -12,6 +12,7 @@ import SplashScreen from './lib/features/main/splashScreen';
 import LoginPage from './lib/features/auth/view/login/loginPage';
 import RegisterPage from './lib/features/auth/view/register/registerPage';
 import { GoogleSignin } from '@react-native-google-signin/google-signin';
+import { Platform } from 'react-native';
 const App = () => {
   const Stack = createNativeStackNavigator();
   const { colorScheme, setColorScheme } = useColorScheme();
@@ -20,8 +21,11 @@ const App = () => {
     getTokenFCM(); 
     notifOpenAppFromBackground();
     notifOpenAppFromTerminate();
+    
     GoogleSignin.configure({
-      webClientId: '860872797752-pl23rlh2h9pj20m6t0nb5abmthiicbcd.apps.googleusercontent.com',
+      webClientId: Platform.OS == 'android' 
+        ? '860872797752-pl23rlh2h9pj20m6t0nb5abmthiicbcd.apps.googleusercontent.com'
+        : '860872797752-a4j2q09k65a60ih85ovbn6b0mjo1udll.apps.googleusercontent.com',
     });
     // CodePush.sync({
 
