@@ -71,5 +71,20 @@
 		<string>PlusJakartaSans-SemiBold.ttf</string>
 		<string>PlusJakartaSans-SemiBoldItalic.ttf</string>
 	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+		<key>CFBundleURLSchemes</key>
+		<array>
+			<string>fb855054452232775</string>
+		</array>
+		</dict>
+	</array>
+	<key>FacebookAppID</key>
+	<string>855054452232775</string>
+	<key>FacebookClientToken</key>
+	<string>5a6a270ac0a8d882c4cf2b911834efaa</string>
+	<key>FacebookDisplayName</key>
+	<string>Momasa</string>
 </dict>
 </plist>

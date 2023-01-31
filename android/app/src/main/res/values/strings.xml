@@ -6,4 +6,6 @@
     <string moduleConfig="true" name="CodePushDeploymentKey">bLiBDGol_btnSR57YW7uSzyRMKFeJmGJylWEe</string>
     <!-- ProductionKey -->
     <!-- <string moduleConfig="true" name="CodePushDeploymentKey">LrwywF85Mmvrkb31r8Vg4PctvWmxH5p4U1WNW</string> -->
+    <string name="facebook_app_id">855054452232775</string>
+    <string name="facebook_client_token">5a6a270ac0a8d882c4cf2b911834efaa</string>
 </resources>

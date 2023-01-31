@@ -8,6 +8,8 @@
 #import <AppCenterReactNative.h>
 #import <AppCenterReactNativeAnalytics.h>
 #import <AppCenterReactNativeCrashes.h>
+#import <FBSDKCoreKit/FBSDKCoreKit-swift.h> 
+#import <React/RCTLinkingManager.h>
 
 #if RCT_NEW_ARCH_ENABLED
 #import <React/CoreModulesPlugins.h>
@@ -32,9 +34,25 @@ static NSString *const kRNConcurrentRoot = @"concurrentRoot";
 
 @implementation AppDelegate
 
+- (BOOL)application:(UIApplication *)app
+            openURL:(NSURL *)url
+            options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options
+{
+  if ([[FBSDKApplicationDelegate sharedInstance] application:app openURL:url options:options]) {
+    return YES;
+  }
+
+  if ([RCTLinkingManager application:app openURL:url options:options]) {
+    return YES;
+  }
+
+  return NO;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
   [FIRApp configure];
+  [FBSDKApplicationDelegate.sharedInstance initializeSDK];
   RCTAppSetupPrepareApp(application);
   [AppCenterReactNative register];
   [AppCenterReactNativeAnalytics registerWithInitiallyEnabled:true];
