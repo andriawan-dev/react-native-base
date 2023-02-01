@@ -13,6 +13,9 @@ import LoginPage from './lib/features/auth/view/login/loginPage';
 import RegisterPage from './lib/features/auth/view/register/registerPage';
 import { GoogleSignin } from '@react-native-google-signin/google-signin';
 import { Platform } from 'react-native';
+
+let codePushOptions = { checkFrequency: CodePush.CheckFrequency.MANUAL }
+
 const App = () => {
   const Stack = createNativeStackNavigator();
   const { colorScheme, setColorScheme } = useColorScheme();
@@ -46,4 +49,4 @@ const App = () => {
   )
 }
 
-export default CodePush(App)
+export default CodePush(codePushOptions)(App)
